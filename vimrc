@@ -26,3 +26,6 @@ set number
 
 " Set font for GUI mode
 set guifont=Anonymous\ Pro:h16
+
+" Fix madness with ruby shit
+set shell=/bin/bash
