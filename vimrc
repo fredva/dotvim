@@ -7,7 +7,7 @@ filetype plugin indent on
 
 " Solarized color scheme
 syntax enable
-set background=dark
+set background=light
 let g:solarized_termtrans = 1
 colorscheme solarized
 
