@@ -1,3 +1,6 @@
+" Install pathogen
+execute pathogen#infect()
+
 " Default indent settings
 set expandtab     " Expand tabs to spaces
 set shiftwidth=4  " No. spaces for auto indent
