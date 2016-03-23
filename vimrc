@@ -22,6 +22,10 @@ set noswapfile
 " Turn off undofile
 set noundofile
 
+" Turn off backup
+set nobackup
+set nowritebackup
+
 " Set encoding
 set encoding=utf8
 
