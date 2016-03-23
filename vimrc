@@ -16,6 +16,9 @@ syntax on
 set background=light
 colorscheme solarized
 
+" Turn of swapfiles
+set noswapfile
+
 " Incremental search
 set incsearch
 
