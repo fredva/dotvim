@@ -12,6 +12,10 @@ filetype plugin indent on
 " Syntax highlighting
 syntax on
 
+" Background and color
+set background=light
+colorscheme solarized
+
 " Incremental search
 set incsearch
 
