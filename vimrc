@@ -19,6 +19,9 @@ colorscheme solarized
 " Turn of swapfiles
 set noswapfile
 
+" Set encoding
+set encoding=utf8
+
 " Incremental search
 set incsearch
 
