@@ -24,3 +24,5 @@ set ruler
 " Mouse in all modes
 set mouse=a 
 
+" Font for GVIM
+set guifont=Consolas:h12:cANSI
