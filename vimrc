@@ -43,3 +43,6 @@ set mouse=a
 
 " Font for GVIM
 set guifont=Consolas:h12:cANSI
+
+" Hightlight matching parens (from standard plugin pi_paren)
+DoMatchParen
