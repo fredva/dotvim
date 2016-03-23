@@ -16,8 +16,11 @@ syntax on
 set background=light
 colorscheme solarized
 
-" Turn of swapfiles
+" Turn off swapfiles
 set noswapfile
+
+" Turn off undofile
+set noundofile
 
 " Set encoding
 set encoding=utf8
