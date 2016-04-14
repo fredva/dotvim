@@ -46,3 +46,6 @@ set guifont=Consolas:h12:cANSI
 
 " Auto chdir to dir of file in buffer
 set autochdir
+
+" Always refresh files
+set autoread
