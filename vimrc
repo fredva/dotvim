@@ -33,7 +33,8 @@ set encoding=utf8
 set incsearch
 
 " Line numbers
-set nu
+"set nu
+set relativenumber "relative, not absolute
 
 " Ruler
 set ruler
