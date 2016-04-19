@@ -39,6 +39,9 @@ set relativenumber "relative, not absolute
 " Ruler
 set ruler
 
+" No. lines above/below cursor when scrolling
+set scrolloff=3
+
 " Mouse in all modes
 set mouse=a 
 
