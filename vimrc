@@ -49,6 +49,10 @@ set scrolloff=3
 " Backspacing in insert mode
 set backspace=indent,eol,start
 
+" Show trailing spaces
+set list
+set listchars=trail:·
+
 " Mouse in all modes
 set mouse=a 
 
