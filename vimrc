@@ -42,6 +42,9 @@ set ruler
 " No. lines above/below cursor when scrolling
 set scrolloff=3
 
+" Backspacing in insert mode
+set backspace=indent,eol,start
+
 " Mouse in all modes
 set mouse=a 
 
