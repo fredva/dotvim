@@ -32,6 +32,10 @@ set encoding=utf8
 " Incremental search
 set incsearch
 
+" Proper case-insensitive search
+set ignorecase
+set smartcase
+
 " Line numbers
 "set nu
 set relativenumber "relative, not absolute
