@@ -64,3 +64,6 @@ set autochdir
 
 " Always refresh files
 set autoread
+
+" remap jj to esc
+inoremap jj <ESC>
