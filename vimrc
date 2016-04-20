@@ -59,6 +59,10 @@ set mouse=a
 " Font for GVIM
 set guifont=Consolas:h12:cANSI
 
+" Remove toolbars in GVIM
+set guioptions-=m
+set guioptions-=T
+
 " Auto chdir to dir of file in buffer
 set autochdir
 
