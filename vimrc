@@ -72,6 +72,13 @@ set autoread
 " remap jj to esc
 inoremap jj <ESC>
 
+" remap leader to comma
+let mapleader=","
+
+" edit/reload vimrc
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
 " Syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
