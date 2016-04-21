@@ -71,7 +71,7 @@ set autoread
 
 " Wildcard ignores
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
-set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.dll
 
 " remap jj to esc
 inoremap jj <ESC>
@@ -95,4 +95,4 @@ let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
 
 " CtrlP settings
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules'
