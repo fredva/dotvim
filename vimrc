@@ -69,6 +69,10 @@ set autochdir
 " Always refresh files
 set autoread
 
+" Wildcard ignores
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe
+
 " remap jj to esc
 inoremap jj <ESC>
 
@@ -89,3 +93,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
+
+" CtrlP settings
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
