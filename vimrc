@@ -99,3 +99,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 " CtrlP settings
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules'
+let g:ctrlp_show_hidden = 1
+
+" vim-better-whitespace
+nmap <silent> <leader>w :StripWhitespace
