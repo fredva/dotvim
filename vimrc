@@ -43,6 +43,10 @@ set relativenumber "relative, not absolute
 " Ruler
 set ruler
 
+" Split right and below
+set splitright
+set splitbelow
+
 " No. lines above/below cursor when scrolling
 set scrolloff=3
 
