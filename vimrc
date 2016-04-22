@@ -87,6 +87,9 @@ let mapleader=","
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
+" Delete buffer without closing windows
+nmap <silent> <leader>d :bp\|bd # <CR>
+
 " JSX highlighting in JS-files as well
 let g:jsx_ext_required = 0
 
