@@ -57,7 +57,7 @@ set listchars=trail:·
 set mouse=a 
 
 " Font for GVIM
-set guifont=Consolas:h11:cANSI
+set guifont=Consolas:h12
 
 " Remove toolbars in GVIM
 set guioptions-=m
