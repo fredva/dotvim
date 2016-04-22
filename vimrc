@@ -93,13 +93,18 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
+let g:syntastic_mode = "passive"
+let g:syntastic_error_symbol = "\u2717"
 let g:syntastic_javascript_checkers = ['eslint']
+nmap <silent> <leader>c :SyntasticCheck <CR>
 
-" CtrlP settings
+""""""""" CtrlP settings
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules'
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_working_path_mode = 'r' "Set repo as working dir
+" Ignore all gitignored files
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
-" vim-better-whitespace
-nmap <silent> <leader>w :StripWhitespace
+"""""""" vim-better-whitespace
+" Strip whitespace on save
+autocmd BufWritepre * StripWhitespace
