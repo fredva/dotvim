@@ -90,10 +90,15 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 " Delete buffer without closing windows
 nmap <silent> <leader>d :bp\|bd # <CR>
 
+"""""""""
+" Plugins
+"""""""""
+
+""""""""" vim-jsx
 " JSX highlighting in JS-files as well
 let g:jsx_ext_required = 0
 
-" Syntastic settings
+""""""""" Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -115,3 +120,10 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 """""""" vim-better-whitespace
 " Strip whitespace on save
 autocmd BufWritepre * StripWhitespace
+
+"""""""" vim-airline
+" Always show status bar
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#buffer_nr_show = 1
