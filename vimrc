@@ -90,6 +90,12 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 " Delete buffer without closing windows
 nmap <silent> <leader>d :bp\|bd # <CR>
 
+" Better window changing
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 """""""""
 " Plugins
 """""""""
