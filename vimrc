@@ -112,9 +112,10 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_mode = "passive"
-let g:syntastic_error_symbol = "\u2717"
+"let g:syntastic_error_symbol = "\u2717"
 let g:syntastic_javascript_checkers = ['eslint']
-nmap <silent> <leader>c :SyntasticCheck <CR>
+nmap <silent> <leader>sc :SyntasticCheck <CR>
+nmap <silent> <leader>sr :SyntasticReset <CR>
 
 """"""""" CtrlP settings
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules'
