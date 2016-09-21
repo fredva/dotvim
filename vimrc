@@ -61,7 +61,7 @@ set listchars=trail:·
 set mouse=a
 
 " Font for GVIM
-set guifont=Anonymous\ Pro:h11
+set guifont=Hack:h12
 
 " Remove toolbars in GVIM
 set guioptions-=m
@@ -132,7 +132,7 @@ autocmd BufWritepre * StripWhitespace
 " Always show status bar
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
-"let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved' "
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 nmap <leader>1 <Plug>AirlineSelectTab1
