@@ -13,7 +13,7 @@ filetype plugin indent on
 syntax on
 
 " Background and color
-set background=dark
+set background=light
 colorscheme solarized
 
 " Turn off swapfiles
@@ -77,11 +77,17 @@ set autoread
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.dll
 
-" remap jj to esc
-inoremap jj <ESC>
+" remap ii to esc
+inoremap ii <ESC>
+
+" highlight search
+set hlsearch
 
 " remap leader to comma
 let mapleader=","
+
+" ,h turns of highlighting
+nnoremap <silent> <leader>h :nohlsearch<CR>
 
 " edit/reload vimrc
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
