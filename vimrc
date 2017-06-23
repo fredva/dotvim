@@ -37,8 +37,8 @@ set ignorecase
 set smartcase
 
 " Line numbers
-"set nu
-set relativenumber "relative, not absolute
+set nu
+"set relativenumber "relative, not absolute
 
 " Ruler
 set ruler
