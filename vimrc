@@ -13,7 +13,7 @@ filetype plugin indent on
 syntax on
 
 " Background and color
-set background=dark
+set background=light
 colorscheme solarized
 
 " Turn off swapfiles
